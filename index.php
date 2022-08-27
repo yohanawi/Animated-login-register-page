@@ -1,5 +1,5 @@
 <?php
-require './function/config.php';
+    require './function/config.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -7,7 +7,7 @@ require './function/config.php';
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Css/style.css" />
+    <link rel="stylesheet" href="Css/style.css" />
     <link rel="icon" href="./images/60111.jpg">
     <title>Sign in & Sign up Form</title>
 </head>
@@ -16,7 +16,7 @@ require './function/config.php';
     <div class="container">
         <div class="forms-container">
             <div class="signin-signup">
-                <form action="" method="post" class="sign-in-form">
+                <form action="function/new-user.php" method="post" class="sign-in-form">
                     <h2 class="title">Sign in</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
@@ -29,7 +29,7 @@ require './function/config.php';
                     <input type="submit" value="Login" name="signin" class="btn solid" />
                     <p style="display: flex;justify-content: center;align-items: center;margin-top: 20px;"><a href="forgot-password.php" style="color: #4590ef;">Forgot Password?</a></p>
                 </form>
-                <form action="/function/new-user.php" class="sign-up-form" method="post">
+                <form action="function/new-user.php" class="sign-up-form" method="post">
                     <h2 class="title">Sign up</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
@@ -83,7 +83,7 @@ require './function/config.php';
     </div>
 
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-    <script src="/Js/app.js"></script>
+    <script src="Js/app.js"></script>
 </body>
 
 </html>

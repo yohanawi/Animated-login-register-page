@@ -11,13 +11,13 @@
         if($query_run)
         {
             $_SESSION['message'] = "Created Successfully";
-            header("Location: ../dash.php");
+            header("Location: ../dashboard.php");
             exit(0);
         }
         else
         {
             $_SESSION['message'] = "Not Created";
-            header("Location: ../dash.php");
+            header("Location: ../index.php.php");
             exit(0);
         }
     }
