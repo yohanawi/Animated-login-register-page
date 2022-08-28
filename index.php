@@ -27,8 +27,9 @@
                         <input type="password" placeholder="Password" name="password" required />
                     </div>
                     <input type="submit" value="Login" name="signin" class="btn solid" />
-                    <p style="display: flex;justify-content: center;align-items: center;margin-top: 20px;"><a href="forgot-password.php" style="color: #4590ef;">Forgot Password?</a></p>
+                    <p style="display: flex;justify-content: center;align-items: center;margin-top: 20px;"><a href="#" style="color: #4590ef;">Forgot Password?</a></p>
                 </form>
+
                 <form action="function/new-user.php" class="sign-up-form" method="post">
                     <h2 class="title">Sign up</h2>
                     <div class="input-field">
@@ -85,5 +86,4 @@
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <script src="Js/app.js"></script>
 </body>
-
 </html>

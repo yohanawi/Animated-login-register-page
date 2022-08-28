@@ -1,9 +1,9 @@
 <?php
     /* DATABASE CONNECTION*/
-    $con = mysqli_connect("localhost","root","","register_login");
+    $db_name = 'mysql:host=localhost;dbname=register_login';
+    $user_name = 'root';
+    $user_password = '';
 
-    if(!$con){
-        die('Connection Failed'. mysqli_connect_error());
-    }
+    $conn = new PDO($db_name, $user_name, $user_password);
     /*DATABASE CONNECTION */
 ?>

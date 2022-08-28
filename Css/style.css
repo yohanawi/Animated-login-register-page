@@ -19,6 +19,19 @@ input {
   overflow: hidden;
 }
 
+.contents {
+  display: flex;
+  text-align: center;
+  margin-top: 250px;
+  margin-left: 350px;
+  background-color: rgb(197, 194, 194);
+  width: 50%;
+  height: 150px;
+  padding-top: 50px;
+  padding-left: 300px;
+  border-radius: 5px;
+}
+
 .forms-container {
   position: absolute;
   width: 100%;
@@ -156,6 +169,18 @@ form.sign-in-form {
 
 .btn:hover {
   background-color: #4d84e2;
+}
+
+.delete-btn {
+  background-color: #636464;
+  display: block;
+  border-radius: .3rem;
+  color: #fff;
+  padding: 5px;
+}
+
+.delete-btn:hover {
+  background-color: #04befe;
 }
 
 .panels-container {
