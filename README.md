@@ -9,3 +9,11 @@ Description: A simple animated login form with functional user account creation.
 - Registration form 
 - Email and password validation
 
+## Demo
+
+Login Page:
+![Login](https://user-images.githubusercontent.com/86613961/197321919-970ccc72-3ed7-49bf-84ce-a6f5370279f4.png)
+
+
+Register Page:
+![Register](https://user-images.githubusercontent.com/86613961/197321928-8a7d61a5-b519-40cd-a435-08fa13a52c19.png)
